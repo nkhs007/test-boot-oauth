@@ -1,0 +1,13 @@
+package com.naveen.test.resource;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class RecourceController {
+
+	@GetMapping
+	public String getName() {
+		return "naveen";
+	}
+}
